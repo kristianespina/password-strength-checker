@@ -34,9 +34,10 @@ const Home = () => {
           password
         );
 
-        // Update
         // Clear
-        setPasswordStrength(undefined);
+        setPasswordStrength(undefined); // * Needs to clear the state due to truncated struct
+
+        // Update
         setPasswordStrength(response);
       } catch (err) {
         console.error(err);
@@ -66,14 +67,14 @@ const Home = () => {
             <form className="mb-2" onSubmit={handleSubmit(onSubmit)}>
               <PasswordField register={register} name="password" />
             </form>
-            <div className="mb-4">
-              <PasswordMeter
-                score={passwordStrength?.score || 0}
-                maxScore={4}
-              />
-            </div>
             {passwordStrength && (
               <>
+                <div className="mb-4">
+                  <PasswordMeter
+                    score={passwordStrength?.score || 0}
+                    maxScore={4}
+                  />
+                </div>
                 <p className="text-xl text-primary-800 font-medium mb-8">
                   {passwordStrength?.warning}
                 </p>
