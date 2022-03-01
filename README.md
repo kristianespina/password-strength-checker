@@ -2,6 +2,23 @@
 
 A micro web app for estimating the password strength written in ReactJS and Typescript.
 
+## Preview
+
+### Desktop Preview
+
+![Desktop Preview](./docs/desktop-preview.png)
+
+### Mobile Preview
+
+![Mobile Preview](./docs/mobile-preview.png)
+
+## Technologies Used
+
+- ReactJS
+- TailwindCSS
+- Typescript
+- Lottie
+
 ## Requirements
 
 - node.js v17 (17.0.1 recommended)
