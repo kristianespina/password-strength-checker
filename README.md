@@ -22,7 +22,6 @@ A micro web app for estimating the password strength written in ReactJS and Type
     - [1. Build docker image](#1-build-docker-image)
     - [2. Run docker image](#2-run-docker-image)
   - [Author](#author)
-  -
 
 ## Preview
 
