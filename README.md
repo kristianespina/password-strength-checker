@@ -40,11 +40,13 @@ A micro web app for estimating the password strength written in ReactJS and Type
 - TailwindCSS
 - Typescript
 - Lottie
+- Docker
 
 ## Requirements
 
 - node.js v17 (17.0.1 recommended)
 - npm v8 (8.1.0 recommended)
+- Docker (optional)
 
 ## Installation
 
